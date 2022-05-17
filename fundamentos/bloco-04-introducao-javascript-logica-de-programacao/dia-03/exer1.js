@@ -53,25 +53,3 @@
 //     }
 // }
 // console.log(maiorPrimo)
-
-
-let maiorPrimo = 0;
-let numbers = [];
-
-for (let i = 0; i <= 50; i+=1) {
-    numbers.push(i)
-}
-console.log(numbers)
-
-for (let i = 0; i <= 50; i+=1) {
-    let primo = true;
-    for (let div = 2; div < 50; div +=1) {
-        if (numbers[i] % div === 0) {
-            primo = false;
-        }
-    }
-    if (primo) {
-        maiorPrimo = numbers[i];
-    }
-}
-console.log(maiorPrimo)
