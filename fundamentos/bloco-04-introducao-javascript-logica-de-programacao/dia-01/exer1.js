@@ -146,36 +146,36 @@
 // }
 
 
-var salarioBruto = 3000;
-var salarioliquido, salarioinss;
+// var salarioBruto = 3000;
+// var salarioliquido, salarioinss;
 
-if (salarioBruto <= 1556.94) {
-    salarioinss = salarioBruto - (salarioBruto * 8/100);
+// if (salarioBruto <= 1556.94) {
+//     salarioinss = salarioBruto - (salarioBruto * 8/100);
     
-} else if (salarioBruto >= 1556.95 && salarioBruto <= 2594.92) {
-    salarioinss = salarioBruto - (salarioBruto * 9/100);
+// } else if (salarioBruto >= 1556.95 && salarioBruto <= 2594.92) {
+//     salarioinss = salarioBruto - (salarioBruto * 9/100);
     
-} else if (salarioBruto >=  2594.93 && salarioBruto <= 5189.82) {
-    salarioinss = salarioBruto - (salarioBruto * 11/100);
+// } else if (salarioBruto >=  2594.93 && salarioBruto <= 5189.82) {
+//     salarioinss = salarioBruto - (salarioBruto * 11/100);
     
-} else {
-    salarioinss = salarioBruto - 570.88;
+// } else {
+//     salarioinss = salarioBruto - 570.88;
     
-}
+// }
 
-if (salarioinss <= 1903.98) {
-    salarioliquido = salarioinss;
-    console.log(salarioliquido)
-} else if (salarioinss >= 1903.99 && salarioinss <= 2826.65) {
-    salarioliquido = salarioinss - (salarioinss * 7.5/100 - 142.80);
-    console.log(salarioliquido)
-} else if (salarioinss >= 2826.66 && salarioinss <= 3751.05) {
-    salarioliquido = salarioinss - (salarioinss * 15/100 - 354.80);
-    console.log(salarioliquido)
-} else if (salarioinss >= 3751.06 && salarioinss <= 4664.68) {
-    salarioliquido = salarioinss - (salarioinss * 22.5/100 - 636.13);
-    console.log(salarioliquido)
-} else {
-    salarioliquido = salarioinss - (salarioinss * 27.5/100 - 869.36);
-    console.log(salarioliquido)
-}
+// if (salarioinss <= 1903.98) {
+//     salarioliquido = salarioinss;
+//     console.log(salarioliquido)
+// } else if (salarioinss >= 1903.99 && salarioinss <= 2826.65) {
+//     salarioliquido = salarioinss - (salarioinss * 7.5/100 - 142.80);
+//     console.log(salarioliquido)
+// } else if (salarioinss >= 2826.66 && salarioinss <= 3751.05) {
+//     salarioliquido = salarioinss - (salarioinss * 15/100 - 354.80);
+//     console.log(salarioliquido)
+// } else if (salarioinss >= 3751.06 && salarioinss <= 4664.68) {
+//     salarioliquido = salarioinss - (salarioinss * 22.5/100 - 636.13);
+//     console.log(salarioliquido)
+// } else {
+//     salarioliquido = salarioinss - (salarioinss * 27.5/100 - 869.36);
+//     console.log(salarioliquido)
+// }
