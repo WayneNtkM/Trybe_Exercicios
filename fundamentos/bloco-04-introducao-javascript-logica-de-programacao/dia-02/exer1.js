@@ -61,18 +61,18 @@
 
 
 // .8
-let numeros = [];
-let num = 0;
+// let numeros = [];
+// let num = 0;
 
-for (var index = 0; index < 25; index+=1) {
-    num += 1;
-    numeros.push(num)
-}
+// for (var index = 0; index < 25; index+=1) {
+//     num += 1;
+//     numeros.push(num)
+// }
 // console.log(numeros)
 
 
 // .9
-for (let div of numeros) {
-    div = div / 2;
-    console.log(div)
-}
+// for (let div of numeros) {
+//     div = div / 2;
+//     console.log(div)
+// }
