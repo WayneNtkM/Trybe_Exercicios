@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p class="pa" id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p class="pa" id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      document.getElementById("page-title").innerText = 'Três Homens em Conflito';
+      document.getElementById("paragraph").innerText = 'Um dos melhors filmes já feitos!';
+      const paragraph2 = document.getElementById("second-paragraph");
+      paragraph2.style.color = 'blue';
+      const sub = document.getElementById("subtitle");
+      sub.style.color = 'purple';
+      document.getElementById("subtitle").innerText = 'Obra de arte!';
+      let paragra = document.getElementsByClassName("pa");
+      for (let i = 0; i < paragra.length; i += 1) {
+        paragra[0].style.color = 'gold';
+      }
+      let subti = document.getElementsByTagName("h4");
+      for (let i = 0; i < subti.length; i += 1) {
+        subti[0].style.color = 'green';
+      }
+    </script>
+  </body>
+</html>
