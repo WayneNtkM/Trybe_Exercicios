@@ -1,0 +1,13 @@
+let title = document.getElementById("header-container");
+title.style.background = 'green';
+let tasks = document.getElementsByTagName("h3");
+tasks[0].style.background = 'purple';
+tasks[1].style.background = 'purple';
+tasks[2].style.background = 'black';
+tasks[3].style.background = 'black';
+let caixa = document.getElementsByTagName('div');
+caixa[0].style.background = 'violet';
+caixa[1].style.background = 'violet';
+caixa[2].style.background = 'purple';
+caixa[3].style.background = 'purple';
+caixa[4].style.background = 'green';

@@ -1,0 +1,28 @@
+div:hover {
+  border: 3px solid black;
+}
+
+div:first-of-type {
+  color: purple;
+}
+
+div:nth-of-type(2) {
+  color: blueviolet;
+}
+
+div:nth-of-type(3) {
+  color: rgb(181, 13, 181);
+  font-size: 20px;
+}
+
+div:nth-of-type(4) {
+  color: rgb(63, 9, 63);
+}
+
+div:nth-of-type(5) {
+  color: green;
+}
+
+h3:nth-of-type(odd) {
+  font-style: italic;
+}
