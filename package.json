@@ -1,0 +1,23 @@
+{
+  "name": "trybe-exercicios",
+  "version": "1.0.0",
+  "description": "Neste repositório constam todas as atividades de aprendizagem desenvolvidas por _[Wayne](https://www.linkedin.com/in/wayne-nacle-20823a232/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WayneNtkM/Trybe_Exercicios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WayneNtkM/Trybe_Exercicios/issues"
+  },
+  "homepage": "https://github.com/WayneNtkM/Trybe_Exercicios#readme",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
