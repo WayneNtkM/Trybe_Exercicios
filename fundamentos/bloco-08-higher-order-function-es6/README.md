@@ -30,7 +30,7 @@
 
 #### dia 5
 
-- [:white_check_mark:] Spread Operator
+- [:white_check_mark:] Spread Operator (...)
 - [:white_check_mark:] Parâmetro Rest
 - [:white_check_mark:] Object Destructuring
 - [:white_check_mark:] Array Destructuring
